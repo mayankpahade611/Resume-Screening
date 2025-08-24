@@ -1,57 +1,85 @@
-Resume Screening App
+# 📄 Resume Screening App  
 
-An AI-powered Resume Screening application that matches resumes against job descriptions using NLP and Semantic Similarity.
-This project helps recruiters and HR teams quickly identify the best-fit candidates.
+An AI-powered **Resume Screening Application** built with **Streamlit** and **Sentence Transformers**.  
+This project helps recruiters automatically match resumes against job descriptions and rank candidates based on relevance.  
 
-🔹 Features
+---
 
-Upload multiple resumes in .csv format
+## 🚀 Features
+- Upload resumes in CSV format  
+- Enter a job description to compare resumes  
+- AI-based similarity scoring using **Sentence-BERT**  
+- Ranks candidates by relevance to the job description  
+- Simple and interactive UI with **Streamlit**  
 
-Paste or input a job description
+---
 
-Uses Sentence-Transformers with TensorFlow for semantic similarity
+## 🛠️ Tech Stack
+- **Python 3.10+**  
+- **Streamlit** – Frontend app  
+- **Sentence-Transformers** – Resume & job description embeddings  
+- **Scikit-learn** – Cosine similarity  
+- **Pandas, NumPy** – Data handling  
 
-Calculates match scores between resumes and job descriptions
+---
 
-Built with Streamlit for an interactive web interface
+## 📂 Project Structure
 
-🔹 Tech Stack
+├── app.py # Streamlit app
+├── ResumeScreening.ipynb # Notebook for experimentation
+├── requirements.txt # Dependencies
+├── resumes.csv # Sample resumes dataset
+├── UpdatedResumeDataSet.csv# Extended resume dataset
+└── README.md # Project documentation
 
-Python
+---
 
-Streamlit (for UI)
+## ⚙️ Installation & Usage
 
-Sentence-Transformers (NLP embeddings)
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/<your-username>/<repo-name>.git
+   cd <repo-name>
 
-Scikit-learn
+2. **Create virtual environment**
+    ```bash
+    python -m venv myvenv
+    source myvenv/bin/activate   # Mac/Linux  
+    myvenv\Scripts\activate      # Windows
 
-Pandas, NumPy
+3. **Install dependencies**                                        
+    ```bash
+    pip install -r requirements.txt
 
-🔹 Installation
-Clone the repository:
+4. **Run the app**
+    ```bash
+    streamlit run app.py
 
-git clone https://github.com/your-username/resume-screening.git
-cd resume-screening
+---
 
+# 🧪 Sample Test
 
-Create and activate a virtual environment:
+- Use the provided resumes.csv dataset.
 
-python -m venv myvenv
-# Windows
-myvenv\Scripts\activate
-# Mac/Linux
-source myvenv/bin/activate
+- Example Job Description:
+We are looking for a Data Scientist with experience in Python, Machine Learning,
+and NLP to build predictive models and deploy AI solutions.
 
+---
 
-🔹 Usage
+# 📊 Demo
+## After running the app, you’ll get:
 
-Run the Streamlit app:
+- ✅ Resume ranking by similarity score
+- ✅ Top candidates highlighted
 
-streamlit run app.py
+---
+# 📌 Future Improvements
+- Support for PDF/Docx resume uploads
 
+- Advanced ranking with LLMs
 
-Upload resumes and enter a job description to get matching scores.
+- Dashboard for recruiters
 
-🔹 Sample Dataset
-
-The repository includes sample resumes (resumes.csv) and a test job description.
+---
+  
