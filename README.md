@@ -23,17 +23,6 @@ This project helps recruiters automatically match resumes against job descriptio
 
 ---
 
-## 📂 Project Structure
-
-├── app.py # Streamlit app
-├── ResumeScreening.ipynb # Notebook for experimentation
-├── requirements.txt # Dependencies
-├── resumes.csv # Sample resumes dataset
-├── UpdatedResumeDataSet.csv# Extended resume dataset
-└── README.md # Project documentation
-
----
-
 ## ⚙️ Installation & Usage
 
 1. **Clone the repository**
