@@ -3,6 +3,9 @@
 An AI-powered **Resume Screening Application** built with **Streamlit** and **Sentence Transformers**.  
 This project helps recruiters automatically match resumes against job descriptions and rank candidates based on relevance.  
 
+🔗 **Live Demo:** [Click here to try the app](https://resume-screening-krsubtfuscdmwk8o2awp9b.streamlit.app/)  
+
+
 ---
 
 ## 🚀 Features
@@ -21,16 +24,7 @@ This project helps recruiters automatically match resumes against job descriptio
 - **Scikit-learn** – Cosine similarity  
 - **Pandas, NumPy** – Data handling  
 
----
 
-## 📂 Project Structure
-
-├── app.py # Streamlit app
-├── ResumeScreening.ipynb # Notebook for experimentation
-├── requirements.txt # Dependencies
-├── resumes.csv # Sample resumes dataset
-├── UpdatedResumeDataSet.csv# Extended resume dataset
-└── README.md # Project documentation
 
 ---
 
