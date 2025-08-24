@@ -57,7 +57,7 @@ This project helps recruiters automatically match resumes against job descriptio
 
 ---
 
-# 🧪 Sample Test
+## 🧪 Sample Test
 
 - Use the provided resumes.csv dataset.
 
@@ -67,19 +67,20 @@ and NLP to build predictive models and deploy AI solutions.
 
 ---
 
-# 📊 Demo
-## After running the app, you’ll get:
+## 📊 Demo
+### After running the app, you’ll get:
 
 - ✅ Resume ranking by similarity score
 - ✅ Top candidates highlighted
 
 ---
-# 📌 Future Improvements
+
+## 📌 Future Improvements
 - Support for PDF/Docx resume uploads
 
 - Advanced ranking with LLMs
 
 - Dashboard for recruiters
 
----
+
   
