@@ -25,9 +25,12 @@ This project helps recruiters automatically match resumes against job descriptio
 - **Pandas, NumPy** – Data handling  
 
 
+<<<<<<< HEAD
 
 ---
 
+=======
+>>>>>>> c8561aa2e660a29b320cb3e4388b32bb45dd5fa0
 ## ⚙️ Installation & Usage
 
 1. **Clone the repository**
