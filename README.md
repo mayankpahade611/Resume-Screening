@@ -1,4 +1,4 @@
-# 📄 Resume Screening App  
+#  Resume Screening App  
 
 An AI-powered **Resume Screening Application** built with **Streamlit** and **Sentence Transformers**.  
 This project helps recruiters automatically match resumes against job descriptions and rank candidates based on relevance.  
@@ -8,7 +8,7 @@ This project helps recruiters automatically match resumes against job descriptio
 
 ---
 
-## 🚀 Features
+##  Features
 - Upload resumes in CSV format  
 - Enter a job description to compare resumes  
 - AI-based similarity scoring using **Sentence-BERT**  
@@ -25,13 +25,11 @@ This project helps recruiters automatically match resumes against job descriptio
 - **Pandas, NumPy** – Data handling  
 
 
-<<<<<<< HEAD
-
 ---
 
 =======
->>>>>>> c8561aa2e660a29b320cb3e4388b32bb45dd5fa0
-## ⚙️ Installation & Usage
+
+##  Installation & Usage
 
 1. **Clone the repository**
    ```bash
@@ -54,7 +52,7 @@ This project helps recruiters automatically match resumes against job descriptio
 
 ---
 
-## 🧪 Sample Test
+##  Sample Test
 
 - Use the provided resumes.csv dataset.
 
@@ -64,7 +62,7 @@ and NLP to build predictive models and deploy AI solutions.
 
 ---
 
-## 📊 Demo
+##  Demo
 ### After running the app, you’ll get:
 
 - ✅ Resume ranking by similarity score
@@ -72,7 +70,7 @@ and NLP to build predictive models and deploy AI solutions.
 
 ---
 
-## 📌 Future Improvements
+##  Future Improvements
 - Support for PDF/Docx resume uploads
 
 - Advanced ranking with LLMs
